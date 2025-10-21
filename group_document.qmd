@@ -7,9 +7,7 @@ editor: visual
 
 ## Casper
 
-#### New feature
-
-ny feature idk?
+Casper den almægtige
 
 ## Rasmus
 
@@ -22,6 +20,8 @@ print(rasmus)
 
 ## Dannie
 
-## Andreas
+Kan i se dette?
 
-Test 1234
+## Andreas 
+
+1234 test
