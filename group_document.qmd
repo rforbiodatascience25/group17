@@ -22,6 +22,12 @@ print(rasmus)
 
 Kan i se dette?
 
-## Andreas 
+## Andreas
 
 1234 test
+
+## New feature Rasmus
+
+```{r}
+2+2
+```
