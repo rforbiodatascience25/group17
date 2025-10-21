@@ -19,5 +19,5 @@ print(rasmus)
 ```
 
 ## Dannie
-Kan i se dette?
+Kan i se dette? 
 ## Andreas
