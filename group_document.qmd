@@ -7,13 +7,7 @@ editor: visual
 
 ## Casper
 
-#### New feature
-
-<<<<<<< HEAD
-new feature idk
-=======
-ny feature idk?
->>>>>>> cc762f680ccc34d8b23eea8e04ff8984605f6efc
+Casper den almægtige
 
 ## Rasmus
 
@@ -25,7 +19,5 @@ print(rasmus)
 ```
 
 ## Dannie
-
+Kan i se dette?
 ## Andreas
-
-Test 1234
