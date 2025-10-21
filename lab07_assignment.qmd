@@ -54,3 +54,33 @@ pca_fit |>
 ```
 
 ## Rotation matrix
+
+Rotate the the data, in order to tidy and make it more usable.
+
+```{r}
+pca_fit_rot <- pca_fit |> tidy(matrix = "rotation")
+pca_fit_rot
+```
+
+## Visualized in a plot
+
+Looking at principal component 1 and 2 as x and y values respectively.
+
+```{r}
+pca_fit_rot |> 
+  pivot_wider(names_from = "PC", names_prefix = "PC", values_from = "value") |> 
+  ggplot(aes(PC1, PC2)) +
+  geom_segment(xend = 0, yend = 0, 
+               arrow = arrow(angle = 20, 
+                             ends = "first", 
+                             type = "closed", 
+                             length = grid::unit(8, "pt"))) +
+  geom_text(
+    aes(label = column),
+    hjust = 1, nudge_x = -0.02, 
+    color = "#904C2F"
+  ) +
+  xlim(-1.25, .5) + ylim(-.5, 1) +
+  coord_fixed() + 
+  theme_minimal_grid(12)
+```
