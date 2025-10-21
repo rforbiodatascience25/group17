@@ -22,6 +22,11 @@ print(rasmus)
 
 Kan i se dette?
 
-## Andreas 
+```{r}
+Yoo <- 1
+Yoo
+```
+
+## Andreas
 
 1234 test
