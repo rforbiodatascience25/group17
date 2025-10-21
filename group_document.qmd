@@ -21,3 +21,13 @@ print(rasmus)
 ## Dannie
 
 ## Andreas
+
+## Rasmus' new feature
+
+```{r}
+er_casper_jesus <- function() {return("Ja")}
+```
+
+```{r}
+print(er_casper_jesus())
+```
