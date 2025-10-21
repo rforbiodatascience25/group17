@@ -41,7 +41,8 @@ Yoo
 
 1234 test
 
-```{r}
-# new feture
-x<-y
+### new feuture
 
+```{r}
+x<-2
+```
