@@ -11,6 +11,13 @@ Casper den almægtige
 
 ## Rasmus
 
+Rasmus was here
+
+```{r}
+rasmus <- "Stud"
+print(rasmus)
+```
+
 ## Dannie
 
 ## Andreas
