@@ -1,11 +1,17 @@
 Top 10 Bio Data Science Languages of ALL Time:
 10. It is 
-9. Impossible
+9. Impossible (RRRRRRrrrRRRrrr)
 8. to rank them
 7. Because
 6. programming is subjective
 5. and everyone
+<<<<<<< HEAD
 4. has
 3. different
 2. tastes
 1. C++
+=======
+4. 9ý+okmfdpvusvj ARrrr0edaiopklbcoauoeli
+3. adaodjpa red stone - not ood
+ajdiajdp
+>>>>>>> a96b7f9cdcb7a579d0bd3c486e015219ebb444ed
