@@ -30,11 +30,27 @@ biopsy <- biopsy |> select(outcome,everything())
 biopsy
 ```
 
-We want to create a model that can predict weather or no
+## Creating the PCA model
+
+We are now going to project the dataset into a plane of the 2 most significant dimensions (linear combinations of the variables)
 
 ```{r}
 pca_fit <- biopsy |> 
   select(where(is.numeric)) |>
   prcomp(scale = TRUE)
-pca_fit
+
 ```
+
+## Plotting the PCA
+
+```{r}
+pca_fit |>
+  augment(biopsy) |>
+  ggplot(aes(.fittedPC1, .fittedPC2, color = outcome)) + 
+  geom_point(size = 1.5) +
+  scale_color_manual(
+    values = c(malignant = "red", benign = "blue")
+  )
+```
+
+## Rotation matrix
