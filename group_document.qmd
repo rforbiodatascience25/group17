@@ -22,6 +22,12 @@ rasmus <- "Stud"
 print(rasmus)
 ```
 
+## New feature Rasmus
+
+```{r}
+2+2
+```
+
 ## Dannie
 
 Kan i se dette?
@@ -35,8 +41,7 @@ Yoo
 
 1234 test
 
-## New feature Rasmus
-
 ```{r}
-2+2
-```
+# new feture
+x<-y
+
