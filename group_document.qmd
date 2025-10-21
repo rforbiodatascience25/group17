@@ -26,6 +26,11 @@ print(rasmus)
 
 Kan i se dette?
 
+```{r}
+Yoo <- 1
+Yoo
+```
+
 ## Andreas
 
 1234 test
