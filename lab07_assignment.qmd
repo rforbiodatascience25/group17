@@ -4,3 +4,37 @@ author: "Group17"
 format: html
 editor: visual
 ---
+
+## Importing libraries
+
+```{r}
+library(tidyverse)
+library(broom)
+library(cowplot)
+library(here)
+```
+
+## Load data
+
+```{r}
+#|echo: false
+biopsy <- read_csv("https://wilkelab.org/classes/SDS348/data_sets/biopsy.csv")
+```
+
+## Look at the data
+
+The explained variable is going to be the outcome column ie. weather or not a tumor is benign or malignant, so we place this col first
+
+```{r}
+biopsy <- biopsy |> select(outcome,everything())
+biopsy
+```
+
+We want to create a model that can predict weather or no
+
+```{r}
+pca_fit <- biopsy |> 
+  select(where(is.numeric)) |>
+  prcomp(scale = TRUE)
+pca_fit
+```
